@@ -1,0 +1,17 @@
+[debug] [2020-02-25T06:16:41.432Z] ----------------------------------------------------------------------
+[debug] [2020-02-25T06:16:41.433Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2020-02-25T06:16:41.433Z] CLI Version:   7.12.1
+[debug] [2020-02-25T06:16:41.433Z] Platform:      linux
+[debug] [2020-02-25T06:16:41.433Z] Node Version:  v10.18.0
+[debug] [2020-02-25T06:16:41.477Z] Time:          Tue Feb 25 2020 14:16:41 GMT+0800 (Malaysia Time)
+[debug] [2020-02-25T06:16:41.477Z] ----------------------------------------------------------------------
+[debug] [2020-02-25T06:16:41.477Z] 
+[debug] [2020-02-25T06:16:41.498Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-25T06:16:41.499Z] > authorizing via signed-in user
+[debug] [2020-02-25T06:16:41.499Z] [iam] checking project restaurant-bot-pawhlh for permissions ["firebase.projects.get"]
+[debug] [2020-02-25T06:16:41.500Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-02-25T06:16:41.500Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-02-25T06:16:41.681Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-25T06:16:41.772Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/restaurant-bot-pawhlh:testIamPermissions  
+

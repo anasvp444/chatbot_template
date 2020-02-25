@@ -1,0 +1,254 @@
+
+
+.chatbotclass0{
+    position:fixed;
+    bottom:100px;
+    right: 0px;
+    width: 400px;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.chatbotclass1{
+    position: relative;
+    padding: .75rem;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: flex;
+}
+
+.chat-class3{
+    display:flex;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 1rem;
+    background-color: azure;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px rgb(124, 131, 129);
+}
+
+.chat-arrow{
+    display: none;
+    position: relative;
+    content: "";
+    width: 10px;
+    height: 10px;
+    right: 0px;
+    bottom: 8px;
+    background-color: azure;
+    transform: translateX(-6px) rotate(45deg);
+    pointer-events: none;
+    box-shadow: 2px -2px 2px 0 rgba(0,0,0,.2);
+}
+
+#chatframe{
+    background: #ffffff;;
+    height:600px;
+    overflow:hidden;
+    padding:0;
+    position: fixed;
+    bottom: 0px;
+    display: none;
+    z-index:99999;
+    box-shadow: 0 0 30px rgb(124, 131, 129);
+}
+
+#chat-header {
+    
+    background-color: rgb(2, 155, 160);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.98;
+    position: fixed;
+    bottom: 600px;
+    display: none;
+    z-index:99999;
+    height: 50px;
+    font-size: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    box-shadow: 0 0 30px rgb(124, 131, 129);
+    
+  }
+#chat-header:hover{
+    background-color: rgb(7, 173, 179);
+}
+
+.chat-heading {
+    font-family: "Georgia";
+}
+
+.img-avathar{
+    position: relative;
+    bottom: 30px;
+    float:  left; 
+}
+
+#chatul {
+    width:100%;
+    list-style-type: none;
+    padding:8px;
+    position:absolute;
+    bottom:80px;
+    display:flex;
+    flex-direction: column;
+    top:0;
+    overflow-y:scroll;
+}
+#chatframe > div:last-of-type{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    display:flex;
+    background-color: rgb(199, 231, 233);
+    height: 80px;;
+    border-top-width: 1px !important;
+    border-top-color:rgb(24, 104, 107) !important;
+    border-top: solid;
+}
+
+.user-type{
+    background-color: rgb(255, 255, 255);
+    border:none !important;
+    outline: none !important;
+}
+.user-type input:focus{
+    outline: none !important;
+}
+
+
+
+.fa-paper-plane:hover {
+    color: #fcfdfc !important;
+    background-color: rgb(14, 122, 165) ;
+}
+
+.chatbot-dialog{
+    position: relative;
+    padding: .75rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: flex;
+}
+
+.chat-dialog {
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 1rem;
+    margin-left: 1rem;
+    background-color: rgb(240, 255, 250);
+    border-color: rgb(127, 236, 255) !important;
+    border-width: 1px !important;
+    border: solid;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+
+.user-dialog{
+    position: relative;
+    padding: .75rem;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    width: 90%
+}
+
+.user-single-dialog {
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 1rem;
+    background-color: rgb(127, 236, 255);
+    border: #ffffff;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+
+.option-rta{
+    justify-content:center;
+}
+
+.btn-chat-option{
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.25rem;
+    margin-left: 0.5rem;
+    background-color: rgb(240, 255, 250);
+    border-color: rgb(127, 236, 255) !important;
+    border-width: 1px !important;
+    border: solid;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgb(124, 131, 129);
+    height: auto;
+    font-size:14px;
+    min-width: 50px;
+
+}
+.option-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.option-rev{
+    background-color: rgb(170, 248, 253) !important;
+}
+.card{
+    width:100%;
+    box-shadow: 0 2px 5px rgb(124, 131, 129);
+    padding: 0.25rem;
+    min-width: 220px;
+}
+
+.border-info{
+    border-color: aquamarine !important;
+    background-color: azure;
+    border-radius: 0.25rem;
+}
+
+
+.card-btn{
+
+    color:#000000;
+    background:rgb(127, 236, 255) !important;
+    border: solid;
+    border-color:rgb(127, 236, 255) !important;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    box-shadow: 0 1px 1px rgb(124, 131, 129);
+}
+
+.card-btn:hover{
+
+
+    border-color: rgb(138, 238, 206);
+    background: rgb(127, 236, 255) !important;
+    color: inherit; 
+    text-decoration: none;
+
+}
+
+.dates{
+    display: block;
+}
+
+.datepicker{
+    border: rgb(127, 236, 255) solid;
+    border-width: thin;
+    margin: auto;
+    margin-top: 10px;
+}
