@@ -58,7 +58,7 @@
 
 #chat-header {
     
-    background-color: rgb(2, 155, 160);
+    background-color: rgba(29, 104, 73, 0.918);
     color: white;
     padding: 16px 20px;
     border: none;
@@ -76,7 +76,7 @@
     
   }
 #chat-header:hover{
-    background-color: rgb(7, 173, 179);
+    background-color: rgb(7, 179, 99);
 }
 
 .chat-heading {
@@ -108,7 +108,7 @@
     background-color: rgb(199, 231, 233);
     height: 80px;;
     border-top-width: 1px !important;
-    border-top-color:rgb(24, 104, 107) !important;
+    border-top-color:rgb(24, 107, 79) !important;
     border-top: solid;
 }
 
@@ -125,7 +125,7 @@
 
 .fa-paper-plane:hover {
     color: #fcfdfc !important;
-    background-color: rgb(14, 122, 165) ;
+    background-color: rgb(65, 231, 162) ;
 }
 
 .chatbot-dialog{
@@ -144,7 +144,7 @@
     padding: 1rem;
     margin-left: 1rem;
     background-color: rgb(240, 255, 250);
-    border-color: rgb(127, 236, 255) !important;
+    border-color: rgb(65, 231, 162) !important;
     border-width: 1px !important;
     border: solid;
     border-top-left-radius: 1rem;
@@ -168,7 +168,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     padding: 1rem;
-    background-color: rgb(127, 236, 255);
+    background-color: rgb(65, 231, 162);
     border: #ffffff;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -187,7 +187,7 @@
     padding: 0.25rem;
     margin-left: 0.5rem;
     background-color: rgb(240, 255, 250);
-    border-color: rgb(127, 236, 255) !important;
+    border-color: rgb(127, 255, 187) !important;
     border-width: 1px !important;
     border: solid;
     border-radius: 0.5rem;
@@ -224,7 +224,7 @@
 .card-btn{
 
     color:#000000;
-    background:rgb(127, 236, 255) !important;
+    background:rgb(127, 255, 187) !important;
     border: solid;
     border-color:rgb(127, 236, 255) !important;
     border-radius: 0.5rem;
@@ -235,8 +235,8 @@
 .card-btn:hover{
 
 
-    border-color: rgb(138, 238, 206);
-    background: rgb(127, 236, 255) !important;
+    border-color: rgb(81, 240, 120);
+    background: rgb(58, 168, 6) !important;
     color: inherit; 
     text-decoration: none;
 
@@ -247,7 +247,7 @@
 }
 
 .datepicker{
-    border: rgb(127, 236, 255) solid;
+    border: rgb(127, 255, 187) solid;
     border-width: thin;
     margin: auto;
     margin-top: 10px;
