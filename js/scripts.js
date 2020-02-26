@@ -60,7 +60,7 @@ function submit_message(message) {
 
 
     $.ajax({
-        url: `https://us-central1-restaurant-bot-pawhlh.cloudfunctions.net/connectChat?text=${message}&session=${session}`,
+        url: ``,// `https://us-central1-restaurant-bot-pawhlh.cloudfunctions.net/connectChat?text=${message}&session=${session}`,
         dataType: 'json',
         success: function (data) {
 
